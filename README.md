@@ -2,11 +2,11 @@
 
 A Collection of Works
 
-### [anitachanthavong.ca](http://anitachanthavong.ca)
+#### [anitachanthavong.ca](http://anitachanthavong.ca)
 
 Anita Chanthavong is an aspiring maverick designer, tweaking perfectionist, lover of all things art and creative, and shark enthusiast.
 
-Born and raised in *Ottawa, Ontario, Canada*. Currently attending *Algonquin College* for **Graphic Design**; graduating Spring 2016. Trained in many areas; focus in website design, packaging, and print.
+Born and raised in *Ottawa, Ontario, Canada*. Currently attending *Algonquin College* for **Graphic Design**; graduating Spring 2016. Trained in many areas; focus areas in website design, packaging, and print.
 
 Inspirations include—but not limited to—nature and animals, food and culture, graffiti, comics and superheroes, cars, music, movies, and designer vinyl toys.
 
