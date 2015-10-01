@@ -42,11 +42,6 @@ body {
   padding: 0;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
-}
-
 .masthead {
 	overflow: hidden;
 }
@@ -59,6 +54,18 @@ body {
 
 .logo {
   width: 100px;
+  border-radius: 50px;
+}
+
+/* IMAGES */
+
+.piece {
+  border-radius: 50px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 /* NAV / SOCIAL */
