@@ -55,50 +55,10 @@ body {
 	text-align: center;
 }
 
-/* LOGO BEGIN */
+/* LOGO */
 
-.hexagon {
-  position: relative;
-  width: 100px; 
-  height: 57.74px;
-  background-color: #38d4d6;
-  margin: 28.87px 0;
-  box-shadow: 0 0 20px rgba(0,0,0,0.6);
-}
-
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 70.71px;
-  height: 70.71px;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background-color: inherit;
-  left: 14.6447px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
-
-.hexagon:before {
-  top: -35.3553px;
-}
-
-.hexagon:after {
-  bottom: -35.3553px;
-}
-
-/*cover up extra shadows*/
-.hexagon span {
-  display: block;
-  position: absolute;
-  top:0px;
-  left: 0;
-  width:100px;
-  height:57.7350px;
-  z-index: 2;
-  background: inherit;
+.logo {
+  width: 100px;
 }
 
 /* NAV / SOCIAL */
@@ -124,7 +84,7 @@ body {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #6cc;
+  background-color: #fff;
   border-radius: 15px;
   color: #fff;
 }
@@ -185,7 +145,7 @@ a:focus {
   -o-box-shadow: inset 0px 0px 0px 3px #099;
   box-shadow: inset 0px 0px 0px 3px #099;
   
-  color: #99cccc;
+  color: #099;
 }
 
 /* EXTRA */
