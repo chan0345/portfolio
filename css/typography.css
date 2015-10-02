@@ -98,6 +98,18 @@ sub {
   bottom: -0.25em;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.height-1 {
+  line-height: 0.85;
+}
+
 .push {
   margin-bottom: 1.5rem;
 }
