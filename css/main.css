@@ -44,6 +44,8 @@ body {
 
 .masthead {
 	overflow: hidden;
+  position: fixed;
+  background-color: #fff
 }
 
 .title {
@@ -53,7 +55,6 @@ body {
 /* LOGO */
 
 .logo {
-  width: 100px;
   border-radius: 50px;
 }
 
@@ -160,6 +161,11 @@ a:focus {
 }
 
 /* EXTRA */
+
+.main {
+  margin-top: 250px;
+}
+
 .section-dark {
   background-color: #ccc;
 }
@@ -187,12 +193,14 @@ span {
 .hr-style {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(153, 204, 204, 0), rgba(153, 204, 204, 0.75), rgba(153, 204, 204, 0));
+    background-image: linear-gradient(to right, rgba(51, 204, 204, 0), rgba(51, 204, 204, 0.75), rgba(51, 204, 204, 0));
 }
 
 ::selection {
 	background: #9cc;
 }
+
+/* RESPONSIVE */
 
 @media only screen and (min-width: 25em) {
 
@@ -217,7 +225,6 @@ span {
 @media only screen and (min-width: 38em) {
 
   .nav {
-  	display: inline-block;
     text-align: center;
   }
 
