@@ -11,14 +11,14 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body id="body">
-<header class="grid grid-middle masthead">
-	<div class="unit gutter title unit-xs-1 pad-top">
+<header class="unit grid grid-middle unit-xs-1">
+	<div class="title pad-top">
 		<a href="index.html"><img src="http://placehold.it/100/9cc/fff/?text=LOGO" class="logo" alt="Logo" title="Anita Chanthavong"></a>
 	</div>
-	<div class="unit gutter unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+	<div class="gutter unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 		<h1 class="title tera push-half uppercase height-1">Anita Chanthavong</h1>
 	</div>
-	<div class="unit unit-xs-1 unit-s-1">
+	<div class="unit-xs-1 unit-s-1">
 		<a href="#nav" class="nav-btn hide-text ease-all" data-state="inactive" title="Navigation" alt="Navigation"><label for="menuTrigger"><i class="fa fa-bars"></i><span class="hide-text">Navigation</label></span></a>
 		<input id="menuTrigger" type="checkbox">
 		<nav class="nav nav-top" data-state="collapsed" role="navigation">
@@ -37,75 +37,191 @@
 	</div>
 </header>
 <hr class="hr-style">
-<main id="works" class="unit main grid gutter">
+<main id="works" class="unit main grid center unit-xs-1">
+<article class="box">
 	<label class="collapse" for="_1"><h2>Piece 1</h2></label>
   <input id="_1" type="checkbox">
-	<div class="unit-xs-1 unit-s-1-2">
+	<div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>Cupcake ipsum dolor sit. Amet jelly beans cookie jelly-o pastry carrot cake. Gummies jelly-o cake. Jelly apple pie soufflé candy tart icing. Apple pie caramels muffin. Caramels soufflé candy oat cake macaroon candy chocolate bar. Brownie jelly-o danish sugar plum jelly-o I love marshmallow. Cupcake sugar plum apple pie tart chocolate jelly beans icing dragée sesame snaps. Powder donut lollipop sugar plum pie. Fruitcake macaroon toffee jelly-o chupa chups sugar plum. Soufflé halvah marzipan fruitcake gummies.</p>
+	<section class="pagedImages">
+  <input id="page1" accesskey="1" type="radio" name="pagedImages1" title="Images page 1" checked="checked" />
+  <input id="page2" accesskey="2" type="radio" name="pagedImages1" title="Images page 2" />
+  <input id="page3" accesskey="3" type="radio" name="pagedImages1" title="Images page 3" />
+  <label for="page1" title="To page 1">1</label>
+  <label for="page2" title="To page 2">2</label>
+  <label for="page3" title="To page 3">3</label>
+  <ul title="This is page 1">
+    <li id="image1">
+      <a href="#image1"><img alt="" src="http://placekitten.com/400/400" /></a>
+      <article>
+        <h3>Image 1</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+    <li id="image2">
+      <a href="#image2"><img alt="" src="http://placekitten.com/300/400" /></a>
+      <article>
+        <h3>Image 2</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+      <aside>
+        <p>You can have more than one element here and it doesn't need to be article.</p>
+      </aside>
+    </li>
+    <li id="image3">
+      <a href="#image3"><img alt="" src="http://placekitten.com/400/300" /></a>
+      <article>
+        <h3>Image 3</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+    <li id="image4">
+      <a href="#image4"><img alt="" src="http://placekitten.com/250/400" /></a>
+      <article>
+        <h3>Image 4</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+  </ul>
+  <ul title="This is page 2">
+    <li id="image5">
+      <a href="#image5"><img alt="" src="http://placekitten.com/400/250" /></a>
+      <article>
+        <h3>Image 5</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+    <li id="image6">
+      <a href="#image6"><img alt="" src="http://placekitten.com/400/200" /></a>
+      <article>
+        <h3>Image 6</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+    <li id="image7">
+      <a href="#image7"><img alt="" src="http://placekitten.com/200/400" /></a>
+      <article>
+        <h3>Image 7</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+    <li id="image8">
+      <a href="#image8"><img alt="" src="http://placekitten.com/275/400" /></a>
+      <article>
+        <h3>Image 8</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+  </ul>
+  <ul title="This is page 3">
+    <li id="image9">
+      <a href="#image9"><img alt="" src="http://placekitten.com/400/275" /></a>
+      <article>
+        <h3>Image 9</h3>
+        <p>Have here whatever you like.</p>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+    <li id="image10">
+      <a href="#image10"><img alt="" src="http://placekitten.com/350/400" /></a>
+      <article>
+        <h3>Image 10</h3>
+        <p><a href="#">Close</a></p>
+      </article>
+    </li>
+  </ul>
+</section>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_2"><h2>Piece 2</h2></label>
   <input id="_2" type="checkbox">
-	<div class="unit-xs-1 unit-s-1-2">
+	<div class="unit-xs-1 unit-s-1">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>Chocolate marzipan icing gummies. Chocolate chupa chups jelly beans sugar plum. Donut marzipan pudding ice cream I love cookie carrot cake. Topping tootsie roll sweet I love chocolate bar chupa chups lemon drops jelly. Lollipop fruitcake jelly beans biscuit marshmallow macaroon topping. Apple pie cake I love I love pudding topping sugar plum halvah cake. Candy canes ice cream fruitcake.</p>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_3"><h2>Piece 3</h2></label>
   <input id="_3" type="checkbox">
 	<div class="unit-xs-1 unit-s-1-2">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>I love wafer wafer lollipop bonbon. Chupa chups I love gingerbread sesame snaps. Topping dragée bonbon cotton candy cake jelly beans. Tiramisu croissant bonbon. Liquorice halvah tiramisu bear claw candy apple pie candy. Macaroon tiramisu tootsie roll sweet roll. Jelly I love chupa chups wafer chocolate cake marshmallow bear claw.</p>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_4"><h2>Piece 4</h2></label>
   <input id="_4" type="checkbox">
-	<div class="unit-xs-1 unit-s-1-2">
+	<div class="unit-xs-1 unit-s-1-2 unit-offset-s-1-2">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>I love caramels chupa chups I love halvah jelly jelly. Brownie jelly brownie marshmallow. Dessert cake cake bear claw icing. Jelly ice cream tootsie roll. Pastry I love liquorice carrot cake sugar plum. Marzipan chocolate bar jelly beans sesame snaps. Topping apple pie danish candy canes.</p>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_5"><h2>Piece 5</h2></label>
   <input id="_5" type="checkbox">
 	<div class="unit-xs-1 unit-s-1-2">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>Tiramisu bear claw macaroon cupcake gummi bears macaroon pudding. Jelly beans chocolate bar chocolate bar icing tootsie roll bonbon topping. Topping tiramisu bear claw icing topping. Sugar plum croissant candy canes bear claw I love. Sugar plum macaroon I love. Cheesecake apple pie cheesecake pastry I love. Dessert donut cheesecake I love I love gingerbread. Danish pastry gummies pastry pudding cake marshmallow bear claw I love. Cake candy canes I love fruitcake powder cake candy jelly sesame snaps. Muffin carrot cake tiramisu.</p>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_6"><h2>Piece 6</h2></label>
   <input id="_6" type="checkbox">
 	<div class="unit-xs-1 unit-s-1-2 unit-offset-s-1-2">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>Cupcake ipsum dolor sit. Amet jelly beans cookie jelly-o pastry carrot cake. Gummies jelly-o cake. Jelly apple pie soufflé candy tart icing. Apple pie caramels muffin. Caramels soufflé candy oat cake macaroon candy chocolate bar. Brownie jelly-o danish sugar plum jelly-o I love marshmallow. Cupcake sugar plum apple pie tart chocolate jelly beans icing dragée sesame snaps. Powder donut lollipop sugar plum pie. Fruitcake macaroon toffee jelly-o chupa chups sugar plum. Soufflé halvah marzipan fruitcake gummies.</p>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_7"><h2>Piece 7</h2></label>
   <input id="_7" type="checkbox">
-	<div class="unit-xs-1 unit-s-1-2 unit-offset-s-1-2">
+	<div class="unit-xs-1 unit-s-1-2">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>Chocolate marzipan icing gummies. Chocolate chupa chups jelly beans sugar plum. Donut marzipan pudding ice cream I love cookie carrot cake. Topping tootsie roll sweet I love chocolate bar chupa chups lemon drops jelly. Lollipop fruitcake jelly beans biscuit marshmallow macaroon topping. Apple pie cake I love I love pudding topping sugar plum halvah cake. Candy canes ice cream fruitcake.</p>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_8"><h2>Piece 8</h2></label>
   <input id="_8" type="checkbox">
 	<div class="unit-xs-1 unit-s-1-2 unit-offset-s-1-2">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>I love wafer wafer lollipop bonbon. Chupa chups I love gingerbread sesame snaps. Topping dragée bonbon cotton candy cake jelly beans. Tiramisu croissant bonbon. Liquorice halvah tiramisu bear claw candy apple pie candy. Macaroon tiramisu tootsie roll sweet roll. Jelly I love chupa chups wafer chocolate cake marshmallow bear claw.</p>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_9"><h2>Piece 9</h2></label>
   <input id="_9" type="checkbox">
-	<div class="unit-xs-1 unit-s-1-2 unit-offset-s-1-2">
+	<div class="unit-xs-1 unit-s-1-2">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>I love caramels chupa chups I love halvah jelly jelly. Brownie jelly brownie marshmallow. Dessert cake cake bear claw icing. Jelly ice cream tootsie roll. Pastry I love liquorice carrot cake sugar plum. Marzipan chocolate bar jelly beans sesame snaps. Topping apple pie danish candy canes.</p>
 	</div>
+</article>
+<article class="box">
 	<label class="collapse" for="_10"><h2>Piece 10</h2></label>
   <input id="_10" type="checkbox">
 	<div class="unit-xs-1 unit-s-1-2 unit-offset-s-1-2">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<p>Tiramisu bear claw macaroon cupcake gummi bears macaroon pudding. Jelly beans chocolate bar chocolate bar icing tootsie roll bonbon topping. Topping tiramisu bear claw icing topping. Sugar plum croissant candy canes bear claw I love. Sugar plum macaroon I love. Cheesecake apple pie cheesecake pastry I love. Dessert donut cheesecake I love I love gingerbread. Danish pastry gummies pastry pudding cake marshmallow bear claw I love. Cake candy canes I love fruitcake powder cake candy jelly sesame snaps. Muffin carrot cake tiramisu.</p>
 	</div>
+</article>
 </main>
 <hr class="hr-style">
 <footer class="grid grid-middle">
-	<div id="about" class="unit gutter center unit-xs-1 unit-s-1 unit-m-1-2">
-		<h3 class="push-0 uppercase">About</h3>
-		<p class="push-half">Aspiring maverick designer, tweaking perfectionist, lover of all things art and creative, and shark enthusiast.</p>
-		<p class="push-half">Born and raised in <em>Ottawa, Ontario, Canada</em>. Currently attending <em>Algonquin College</em> for <strong>Graphic Design</strong>; graduating Spring 2016. Trained in many areas; specialized in website design, packaging, and print.</p>
-		<p class="push-half">Inspirations include&mdash;but not limited to&mdash;nature and animals, food and culture, graffiti, comics and superheroes, cars, music, movies, and designer vinyl toys.</p>
+	<div id="about" class="unit gutter center unit-xs-1 unit-s-1">
+		<h3 class="push-0 uppercase unit-m-1">About</h3>
+		<p class="push-half unit-m-1-2 unit-l-2-3">Aspiring maverick designer, tweaking perfectionist, lover of all things art and creative, and shark enthusiast.</p>
+		<p class="push-half unit-m-1-2 unit-l-1-3">Born and raised in <em>Ottawa, Ontario, Canada</em>. Currently attending <em>Algonquin College</em> for <strong>Graphic Design</strong>; graduating Spring 2016. Trained in many areas; specialized in website design, packaging, and print.</p>
+		<p class="push-half unit-m-1-2 unit-l-1-3">Inspirations include&mdash;but not limited to&mdash;nature and animals, food and culture, graffiti, comics and superheroes, cars, music, movies, and designer vinyl toys.</p>
 	</div>
 	<div class="unit micro center unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 		<p class="copyright push-0">&copy; 2015 Anita Chanthavong</p>
