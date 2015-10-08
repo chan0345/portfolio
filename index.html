@@ -10,7 +10,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,700,600,300' rel='stylesheet' type='text/css'>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
+<body id="body">
 <header class="grid grid-middle masthead">
 	<div class="unit gutter title unit-xs-1 pad-top">
 		<a href="index.html"><img src="http://placehold.it/100/9cc/fff/?text=LOGO" class="logo" alt="Logo" title="Anita Chanthavong"></a>
@@ -18,8 +18,9 @@
 	<div class="unit gutter unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 		<h1 class="title tera push-half uppercase height-1">Anita Chanthavong</h1>
 	</div>
-	<div class="unit gutter unit-xs-1 unit-s-1">
-		<a href="#nav" class="nav-btn hide-text ease-all" data-state="inactive" title="Navigation" alt="Navigation"><i class="fa fa-bars"></i><span class="hide-text">Navigation</span></a>
+	<div class="unit unit-xs-1 unit-s-1">
+		<a href="#nav" class="nav-btn hide-text ease-all" data-state="inactive" title="Navigation" alt="Navigation"><label for="menuTrigger"><i class="fa fa-bars"></i><span class="hide-text">Navigation</label></span></a>
+		<input id="menuTrigger" type="checkbox">
 		<nav class="nav nav-top" data-state="collapsed" role="navigation">
 			<ul class="push-0">
 				<li><a href="#works">View Works</a></li>
@@ -37,7 +38,6 @@
 </header>
 <hr class="hr-style">
 <main class="main grid">
-
 	<div id="works" class="unit unit-xs-1-2 gutter">
 		<img class="piece" src="http://placehold.it/100/9cc/fff/?text=IMG" alt="">
 		<h2>Piece 1<h2>
@@ -71,6 +71,6 @@
 		<p class="copyright push-0">&copy; 2015 Anita Chanthavong</p>
 	</div>
 </footer>
-<script src="js/nav.js"></script>
+<!--<script src="js/nav.js"></script>-->
 </body>
 </html>
