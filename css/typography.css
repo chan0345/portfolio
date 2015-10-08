@@ -188,9 +188,6 @@ sub {
 footer h3 {
   font-size: 1.0000rem;
 }
-footer p {
-  font-size: 0.7901rem;
-}
 
 .copyright {
   color: #3cc;
@@ -202,8 +199,5 @@ footer p {
     font-size: 1.2656rem;
   }
 
-  footer p {
-    font-size: 1.0000rem;
-  }
 }
 
