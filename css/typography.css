@@ -181,6 +181,10 @@ sub {
   text-align: center;
 }
 
+::selection {
+  background: #1cc;
+}
+
 footer h3 {
   font-size: 1.0000rem;
 }

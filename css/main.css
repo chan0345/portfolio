@@ -294,14 +294,32 @@ span {
     background-image: linear-gradient(to right, rgba(51, 204, 204, 0), rgba(51, 204, 204, 0.75), rgba(51, 204, 204, 0));
 }
 
-::selection {
-	background: #9cc;
-}
-
 /* ----- MAIN -----*/
 
 .main {
   margin-top: 150px;
+}
+
+.main h2:hover {
+  background-color: #3cc;
+  color: white;
+}
+
+.collapse{
+  font-size: 31px;
+  display:block;
+}
+
+.collapse + input{
+  display:none;
+}
+
+.collapse + input + *{
+  display:none;
+}
+
+.collapse+ input:checked + *{
+  display:block;
 }
 
 /* ----- RESPONSIVE ----- */
