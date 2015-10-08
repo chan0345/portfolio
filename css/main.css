@@ -52,10 +52,6 @@ body {
 	text-align: center;
 }
 
-.main {
-  margin-top: 250px;
-}
-
 /* ----- LOGO ----- */
 
 .logo {
@@ -300,6 +296,12 @@ span {
 
 ::selection {
 	background: #9cc;
+}
+
+/* ----- MAIN -----*/
+
+.main {
+  margin-top: 150px;
 }
 
 /* ----- RESPONSIVE ----- */
