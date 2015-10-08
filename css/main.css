@@ -263,6 +263,10 @@ span {
   span {
     display: inline;
   }
+
+  .logo {
+    width: 25%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
