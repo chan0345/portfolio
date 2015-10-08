@@ -52,6 +52,10 @@ body {
 	text-align: center;
 }
 
+.main {
+  margin-top: 250px;
+}
+
 /* ----- LOGO ----- */
 
 .logo {
@@ -136,7 +140,14 @@ a:focus {
   background-color: #6cc;
   border: none;
 }
-/*
+
+.links {
+  border: 1px solid #6cc;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+/* ----- JAVASCRIPT FOR NAV -----
 .nav-btn[data-state="active"] {
   background: transparent url(../images/nav-close.svg) no-repeat center center;
 }
@@ -252,11 +263,7 @@ button:focus {
 }
 
 
-/* ----- EXTRA ----- */
-
-.main {
-  margin-top: 250px;
-}
+/* ----- MISCELLANEOUS ----- */
 
 .hide-text {
   display: block;
