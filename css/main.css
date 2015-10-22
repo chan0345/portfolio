@@ -82,6 +82,7 @@ header {
   position: fixed;
   background-color: #fff;
   margin: 0;
+  z-index: 3;
 }
 
 /* ----- LOGO ----- */
@@ -177,10 +178,6 @@ a:focus {
   border-radius: 20px;
   padding: 5px;
   margin-bottom: 5px;
-}
-
-header {
-  z-index: 3;
 }
 
 /* ----- JAVASCRIPT FOR NAV -----
@@ -646,7 +643,9 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 /* ----- RESPONSIVE ----- */
 
 @media only screen and (min-width: 25em) {
-  /* 400px */
+  
+    /* 400px */
+  
   .nav {
     text-align: center;
   }
@@ -665,13 +664,15 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 }
 
 @media only screen and (min-width: 38em) {
-  /* 608px */
+  
+    /* 608px */
+  
   .nav {
     text-align: center;
   }
 
-  h1 {
-  	size: exa;
+  .main {
+    margin-top: 80px;
   }
 
   .box {
@@ -681,7 +682,9 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 }
 
 @media only screen and (min-width: 60em) {
-  /* 960px */
+  
+    /* 960px */
+  
   .img-flex {
     padding-right: 7.5%;
   }
@@ -690,4 +693,6 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
     margin-bottom: 0.25%;
     padding: 0 20%;
   }
+
+  
 }

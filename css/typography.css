@@ -4,6 +4,8 @@ html {
 
 @media only screen and (min-width: 60em) {
 
+    /* 960px */
+
   html {
     font-size: 110%;
   }
@@ -11,12 +13,16 @@ html {
 
 @media only screen and (min-width: 90em) {
 
+    /* 1440px */
+
   html {
     font-size: 120%;
   }
 }
 
 @media only screen and (min-width: 120em) {
+
+    /* 1920px */
 
   html {
     font-size: 130%;
@@ -193,11 +199,50 @@ footer h3 {
   color: #3cc;
 }
 
+@media only screen and (min-width: 1em) {
+
+    /* 239px */
+
+  h1 {
+    font-size: 1.2656rem;
+    line-height: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 21.563em) {
+
+  /* 345px */
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+}
+
 @media only screen and (min-width: 25em) {
   
+  /* 400px */
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.75rem;
+    padding-bottom: 0.5rem;
+  }
+
   footer h3 {
     font-size: 1.2656rem;
   }
 
 }
 
+@media only screen and (min-width: 38em) {
+  
+    /* 608px */
+  
+  h1 {
+    font-size: 2.25rem;
+    padding-bottom: 0.75rem;
+  }
+
+}
