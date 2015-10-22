@@ -1,40 +1,60 @@
 - name: Piece 1
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: Cupcake ipsum dolor sit. Amet jelly beans cookie jelly-o pastry carrot cake. Gummies jelly-o cake. Jelly apple pie soufflé candy tart icing. Apple pie caramels muffin. Caramels soufflé candy oat cake macaroon candy chocolate bar. Brownie jelly-o danish sugar plum jelly-o I love marshmallow. Cupcake sugar plum apple pie tart chocolate jelly beans icing dragée sesame snaps. Powder donut lollipop sugar plum pie. Fruitcake macaroon toffee jelly-o chupa chups sugar plum. Soufflé halvah marzipan fruitcake gummies.
+	for: _1
+	id: _1
 
 - name: Piece 2
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: Chocolate marzipan icing gummies. Chocolate chupa chups jelly beans sugar plum. Donut marzipan pudding ice cream I love cookie carrot cake. Topping tootsie roll sweet I love chocolate bar chupa chups lemon drops jelly. Lollipop fruitcake jelly beans biscuit marshmallow macaroon topping. Apple pie cake I love I love pudding topping sugar plum halvah cake. Candy canes ice cream fruitcake.
+	for: _2
+	id: _2
 
 - name: Piece 3
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: I love wafer wafer lollipop bonbon. Chupa chups I love gingerbread sesame snaps. Topping dragée bonbon cotton candy cake jelly beans. Tiramisu croissant bonbon. Liquorice halvah tiramisu bear claw candy apple pie candy. Macaroon tiramisu tootsie roll sweet roll. Jelly I love chupa chups wafer chocolate cake marshmallow bear claw.
+	for: _3
+	id: _3
 
 - name: Piece 4
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: I love caramels chupa chups I love halvah jelly jelly. Brownie jelly brownie marshmallow. Dessert cake cake bear claw icing. Jelly ice cream tootsie roll. Pastry I love liquorice carrot cake sugar plum. Marzipan chocolate bar jelly beans sesame snaps. Topping apple pie danish candy canes.
+	for: _4
+	id: _4
 
 - name: Piece 5
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: Tiramisu bear claw macaroon cupcake gummi bears macaroon pudding. Jelly beans chocolate bar chocolate bar icing tootsie roll bonbon topping. Topping tiramisu bear claw icing topping. Sugar plum croissant candy canes bear claw I love. Sugar plum macaroon I love. Cheesecake apple pie cheesecake pastry I love. Dessert donut cheesecake I love I love gingerbread. Danish pastry gummies pastry pudding cake marshmallow bear claw I love. Cake candy canes I love fruitcake powder cake candy jelly sesame snaps. Muffin carrot cake tiramisu.
+	for: _5
+	id: _5
 
 - name: Piece 6
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: Cupcake ipsum dolor sit. Amet jelly beans cookie jelly-o pastry carrot cake. Gummies jelly-o cake. Jelly apple pie soufflé candy tart icing. Apple pie caramels muffin. Caramels soufflé candy oat cake macaroon candy chocolate bar. Brownie jelly-o danish sugar plum jelly-o I love marshmallow. Cupcake sugar plum apple pie tart chocolate jelly beans icing dragée sesame snaps. Powder donut lollipop sugar plum pie. Fruitcake macaroon toffee jelly-o chupa chups sugar plum. Soufflé halvah marzipan fruitcake gummies.
+	for: _6
+	id: _6
 
 - name: Piece 7
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: Chocolate marzipan icing gummies. Chocolate chupa chups jelly beans sugar plum. Donut marzipan pudding ice cream I love cookie carrot cake. Topping tootsie roll sweet I love chocolate bar chupa chups lemon drops jelly. Lollipop fruitcake jelly beans biscuit marshmallow macaroon topping. Apple pie cake I love I love pudding topping sugar plum halvah cake. Candy canes ice cream fruitcake.
+	for: _7
+	id: _7
 
 - name: Piece 8
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: I love wafer wafer lollipop bonbon. Chupa chups I love gingerbread sesame snaps. Topping dragée bonbon cotton candy cake jelly beans. Tiramisu croissant bonbon. Liquorice halvah tiramisu bear claw candy apple pie candy. Macaroon tiramisu tootsie roll sweet roll. Jelly I love chupa chups wafer chocolate cake marshmallow bear claw.
+	for: _8
+	id: _8
 
 - name: Piece 9
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: I love caramels chupa chups I love halvah jelly jelly. Brownie jelly brownie marshmallow. Dessert cake cake bear claw icing. Jelly ice cream tootsie roll. Pastry I love liquorice carrot cake sugar plum. Marzipan chocolate bar jelly beans sesame snaps. Topping apple pie danish candy canes.
+	for: _9
+	id: _9
 
 - name: Piece 10
 	image: http://placehold.it/100/9cc/fff/?text=IMG
 	paragraph: Tiramisu bear claw macaroon cupcake gummi bears macaroon pudding. Jelly beans chocolate bar chocolate bar icing tootsie roll bonbon topping. Topping tiramisu bear claw icing topping. Sugar plum croissant candy canes bear claw I love. Sugar plum macaroon I love. Cheesecake apple pie cheesecake pastry I love. Dessert donut cheesecake I love I love gingerbread. Danish pastry gummies pastry pudding cake marshmallow bear claw I love. Cake candy canes I love fruitcake powder cake candy jelly sesame snaps. Muffin carrot cake tiramisu.
+	for: _10
+	id: _10
 
