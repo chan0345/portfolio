@@ -2,9 +2,14 @@
 layout: default
 ---
 
-{{% for piece in site.data.pieces}}
-  <h2>{{piece.name}}</h2>
-  {{piece.image}}
-  {{piece.paragraph}}
+{% for piece in site.data.pieces %}
+  <article class="box">
+      <label class="collapse" for="{{piece.for}}"><h2>{{piece.name}}</h2></label>
+    <input id="{{piece.id}}" type="checkbox">
+      <div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+        {{piece.image}}
+        {{piece.paragraph}}
+        {% include image-slider.html %}
+      </div>
+  </article>
 {% endfor %}
-
