@@ -188,7 +188,7 @@ sub {
 }
 
 ::selection {
-  background: orange;
+  background: #1cc;
 }
 
 footer h3 {

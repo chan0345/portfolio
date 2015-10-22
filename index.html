@@ -4,6 +4,17 @@ layout: default
 
 {% for piece in site.data.pieces %}
   <article class="box">
+      <h2>{{piece.name}}</h2>
+      <div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+        {{site.image}}
+        {{site.paragraph}}
+        {% include image-slider.html %}
+      </div>
+  </article>
+{% endfor %}
+<!--
+{% for piece in site.data.pieces %}
+  <article class="box">
       <label class="collapse" for="{{piece.for}}"><h2>{{piece.name}}</h2></label>
     <input id="{{piece.id}}" type="checkbox">
       <div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
@@ -12,4 +23,4 @@ layout: default
         {% include image-slider.html %}
       </div>
   </article>
-{% endfor %}
+{% endfor %}-->
