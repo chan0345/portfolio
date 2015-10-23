@@ -2,33 +2,6 @@ html {
   font: normal 100%/1.5 'Josefin Sans', sans-serif;
 }
 
-@media only screen and (min-width: 60em) {
-
-    /* 960px */
-
-  html {
-    font-size: 110%;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-
-    /* 1440px */
-
-  html {
-    font-size: 120%;
-  }
-}
-
-@media only screen and (min-width: 120em) {
-
-    /* 1920px */
-
-  html {
-    font-size: 130%;
-  }
-}
-
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
@@ -245,4 +218,35 @@ footer h3 {
     padding-bottom: 0.75rem;
   }
 
+}
+
+@media only screen and (min-width: 60em) {
+
+    /* 960px */
+
+  html {
+    font-size: 110%;
+  }
+
+  .secondary {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+    /* 1440px */
+
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+
+    /* 1920px */
+
+  html {
+    font-size: 130%;
+  }
 }
