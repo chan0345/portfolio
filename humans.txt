@@ -1,0 +1,13 @@
+/* TEAM */
+Name: Anita Chanthavong
+Site: https://chan0345.github.io/portfolio
+Twitter: @anitachnthvng
+Location: Ottawa, Ontario
+
+/* THANKS */
+Name: Thomas J Bradley
+
+/* SITE */
+Last Update: 2015/10/28
+Standard: HTML5, CSS3
+Software: Sublime Text 2, GitHub
