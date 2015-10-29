@@ -2,7 +2,7 @@
 
 A Collection of Works
 
-#### [anitachanthavong.ca](https://anitachanthavong.ca)
+#### [anitachanthavong.ca](http://anitachanthavong.ca)
 
 Anita Chanthavong is an aspiring maverick designer, tweaking perfectionist, lover of all things art and creative, and shark enthusiast.
 
