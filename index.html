@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Graphic Designer
 ---
 
 {% for piece in site.data.pieces %}
@@ -7,7 +8,7 @@ layout: default
       <label class="collapse" for="{{piece.for}}"><h2>{{piece.name}}</h2></label>
     <input id="{{piece.id}}" type="checkbox">
       <div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-        <img class="piece" src="{{site.image}}" alt="Piece">
+        <img class="piece" src="{{piece.image}}" alt="Piece">
         <p>{{site.paragraph}}</p>
         {% include image-slider.html %}
       </div>
