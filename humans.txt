@@ -1,15 +1,26 @@
-/* TEAM */
+# humanstxt.org
+
+# TEAM
+
 Name: Anita Chanthavong
-Site: https://chan0345.github.io/portfolio
-Email: anita.chanthavong@gmail.com
+Site: http://anitachanthavong.ca
+GitHub: https://github.com/chan0345/
+Email: ac@anitachanthavong.ca
 Twitter: @anitachnthvng
 Location: Ottawa, Ontario
 
-/* THANKS */
+---
+
+# THANKS
 Name: Thomas J Bradley
 Icons: Font Awesome Icons
 
-/* TECHNOLOGY */
-Last Update: 2015/10/28
-Standard: HTML5, CSS3
-Software: Sublime Text 2, GitHub
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Sublime Text 2
+- Git + GitHub
+- Markdown
