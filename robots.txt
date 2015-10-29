@@ -1,4 +1,4 @@
 Sitemap: https://chan0345.github.io/portfolio/sitemap.xml
 
-User-Agent: *
+User-agent: *
 Disallow: /img
