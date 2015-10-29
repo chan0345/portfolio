@@ -3,7 +3,6 @@
 # TEAM
 
 Name: Anita Chanthavong
-Site: http://anitachanthavong.ca
 GitHub: https://github.com/chan0345/
 Email: ac@anitachanthavong.ca
 Twitter: @anitachnthvng

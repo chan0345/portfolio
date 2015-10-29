@@ -85,6 +85,14 @@ sub {
   text-transform: lowercase;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: italic;
+}
+
 .height-1 {
   line-height: 0.85;
 }
