@@ -226,7 +226,7 @@ nav,
 
 .social ul {
   margin-bottom: 0;
-  padding: 0;
+  padding-left: 0px;
 }
 
 .social li {
@@ -280,7 +280,7 @@ a:link {
 }
 
 a:visited {
-  color: rgba(0,102,102,1);
+  color: #9cc;
 }
 
 a:hover,
