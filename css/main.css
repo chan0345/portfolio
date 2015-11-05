@@ -28,7 +28,6 @@ Tints:
 #9cc
 
 #099
-Orange #f60
 Navy #095C7C
 
 */
@@ -91,6 +90,12 @@ header {
   width: 45px;
   border-radius: 50px;
   margin-left: 5px;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+  border: 5px solid #C2E575;
 }
 
 /* ----- IMAGES ----- */
@@ -169,7 +174,7 @@ a:focus {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-  background-color: #6cc;
+  background-color: #C2E575;
   border: none;
 }
 
@@ -261,13 +266,13 @@ nav,
 .social li a:hover,
 .social li a:active,
 .social li a:focus {
-  -webkit-box-shadow: inset 0px 0px 0px 3px #099;
-  -moz-box-shadow: inset 0px 0px 0px 3px #099;
-  -ms-box-shadow: inset 0px 0px 0px 3px #099;
-  -o-box-shadow: inset 0px 0px 0px 3px #099;
-  box-shadow: inset 0px 0px 0px 3px #099;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #C2E575;
+  -moz-box-shadow: inset 0px 0px 0px 3px #C2E575;
+  -ms-box-shadow: inset 0px 0px 0px 3px #C2E575;
+  -o-box-shadow: inset 0px 0px 0px 3px #C2E575;
+  box-shadow: inset 0px 0px 0px 3px #C2E575;
   background-color: #fff;
-  color: #099;
+  color: #C2E575;
 }
 
 /* ----- LINKED TEXT ----- */
@@ -286,7 +291,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: #F60;
+  color: #C2E575;
 }
 
 a:hover,
