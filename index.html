@@ -16,7 +16,12 @@ meta: A collection of works created by Anita Chanthavong.
       <div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
         <img class="piece" src="{{site.baseurl}}/images/{{piece.image}}" alt="Piece">
         <p>{{piece.paragraph}}</p>
-        {% include image-slider.html %}
+        {% if piece.image2 %}
+        <img class="piece" src="{{site.baseurl}}/images/{{piece.image2}}" alt="Piece">
+        {% endif %}
+        {% if piece.imageslider %}
+          {% include image-slider.html %}
+        {% endif %}
       </div>
   </article>
 {% endfor %}
