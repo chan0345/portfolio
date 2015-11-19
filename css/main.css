@@ -463,7 +463,8 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   width: 33.33%;
 }
 
-.mono > ul > li {
+.mono > ul > li,
+.qb > ul > li {
   width: 25%;
 }
 

@@ -44,10 +44,19 @@
   imageslider: image-slider-mono.html
 
 - name: Hannibal Quote Book
-  image: http://placehold.it/100/9cc/fff/?text=IMG
-  paragraph: Tiramisu bear claw macaroon cupcake gummi bears macaroon pudding. Jelly beans chocolate bar chocolate bar icing tootsie roll bonbon topping. Topping tiramisu bear claw icing topping. Sugar plum croissant candy canes bear claw I love. Sugar plum macaroon I love. Cheesecake apple pie cheesecake pastry I love. Dessert donut cheesecake I love I love gingerbread. Danish pastry gummies pastry pudding cake marshmallow bear claw I love. Cake candy canes I love fruitcake powder cake candy jelly sesame snaps. Muffin carrot cake tiramisu.
+  image: /qb/hannibal.jpg
+  image3: /qb/hannibal2.jpg
+  image4: /qb/hannibal3.jpg
+  image5: /qb/hannibal4.jpg
+  image6: /qb/hannibal5.jpg
+  image7: /qb/hannibal6.jpg
+  image8: /qb/hannibal7.jpg
+  image9: /qb/hannibal8.jpg
+  image10: /qb/hannibal9.jpg
+  paragraph: For this project, we were tasked with creating a quote book of a subject of our choosing to demonstrate our handmade and digital typographic skills.
   for: _5
   id: _5
+  imageslider: image-slider-qb.html
 
 - name: Motion Reel
   video: demo-reel-2014.mp4
