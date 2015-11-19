@@ -6,8 +6,13 @@
   alt: Isometric Illustration
 
 - name: Sony Package Design
-  image: http://placehold.it/100/9cc/fff/?text=IMG
-  paragraph: Chocolate marzipan icing gummies. Chocolate chupa chups jelly beans sugar plum. Donut marzipan pudding ice cream I love cookie carrot cake. Topping tootsie roll sweet I love chocolate bar chupa chups lemon drops jelly. Lollipop fruitcake jelly beans biscuit marshmallow macaroon topping. Apple pie cake I love I love pudding topping sugar plum halvah cake. Candy canes ice cream fruitcake.
+  image: /sony/cover-page.jpg
+  image2: /sony/rationale.jpg
+  image3: /sony/design.jpg
+  image4: /sony/manual.jpg
+  image5: /sony/prototype.jpg
+  image6: /sony/prototype-2.jpg
+  paragraph: For this project we were tasked with redesigning a pre-existing product package design from the categories of toys, food, and electronics.
   for: _2
   id: _2
   imageslider: image-slider.html
@@ -36,7 +41,8 @@
 
 - name: Motion Reel
   video: demo-reel-2014.mp4
-  paragraph: This is a demo reel made with Adobe After Effects and Adobe Premiere Pro.
+  paragraph2: The video below was created with Adobe After Effects and Adobe Premiere Pro.
   for: _6
   id: _6
-  alt: Motion Reel  
+  alt: Motion Reel
+  fallback: Motion Graphics Reel 2014
