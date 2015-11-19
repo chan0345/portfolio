@@ -1,6 +1,6 @@
 - name: Isometric Illustration
   image: isometric.jpg
-  paragraph: This project was meant to exercise Adobe Illustrator skills to create an isometric drawing of a process of our choosing. This particular process is of the different sections of Ikea.
+  paragraph2: This project was meant to exercise Adobe Illustrator skills to create an isometric drawing of a process of our choosing. This particular process is of the different sections of Ikea.
   for: _1
   id: _1
   alt: Isometric Illustration
@@ -14,7 +14,9 @@
 
 - name: Gestalt Illustration
   image: gestalt-1.jpg
-  paragraph: I love wafer wafer lollipop bonbon. Chupa chups I love gingerbread sesame snaps. Topping dragée bonbon cotton candy cake jelly beans. Tiramisu croissant bonbon. Liquorice halvah tiramisu bear claw candy apple pie candy. Macaroon tiramisu tootsie roll sweet roll. Jelly I love chupa chups wafer chocolate cake marshmallow bear claw.
+  paragraph: For this project, we were tasked to study the style of Pablo Lobato and combine this with the Gestalt Principles. These principles include similarity, proximity, continuation, closure, and negative/positive space.
+  paragraph2: We were asked to choose a well-known accomplished individual whom wasn't already styled by Pablo Lobato. They could be an actor, scientist, singer, mathematician, reporter, writer, musician, etc.
+  paragraph3: We were then tasked with implementing the finished illustration into a layout of our choosing that related to our subject. Possibilities included—but not limited to—a newspaper, magazine, CD cover, DVD cover, book cover, cosmetic packaging, and food packaging. We were required to research and find examples, as well as study and measure these pre-existing layouts for accuracy.
   image2: gestalt-2.jpg
   for: _3
   id: _3

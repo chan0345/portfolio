@@ -14,16 +14,30 @@ meta: A collection of works created by Anita Chanthavong.
     </label>
     <input id="{{piece.id}}" type="checkbox">
       <div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+        {% if piece.paragraph %}
+        <p>{{piece.paragraph}}</p>
+        {% endif %}
+
         {% if piece.image %}
         <img class="piece" src="{{site.baseurl}}/images/{{piece.image}}" alt="{{piece.alt}}">
         {% endif %}
+
         {% if piece.video %}
-        <video src="{{site.baseurl}}/videos/{{piece.video}}" alt="{{piece.alt}}"></video>
+        <video src="{{site.baseurl}}/videos/{{piece.video}}" controls alt="{{piece.alt}}"></video>
         {% endif %}
-        <p>{{piece.paragraph}}</p>
+
+        {% if piece.paragraph2 %}
+        <p>{{piece.paragraph2}}</p>
+        {% endif %}
+
         {% if piece.image2 %}
         <img class="piece" src="{{site.baseurl}}/images/{{piece.image2}}" alt="{{piece.alt}}">
         {% endif %}
+
+        {% if piece.paragraph3 %}
+        <p>{{piece.paragraph3}}</p>
+        {% endif %}
+
         {% if piece.imageslider %}
           {% include image-slider.html %}
         {% endif %}
