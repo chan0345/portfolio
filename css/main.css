@@ -90,6 +90,7 @@ header {
   width: 45px;
   border-radius: 50px;
   margin-left: 5px;
+  margin-top: 0px;
 }
 
 .logo:hover,
@@ -115,7 +116,7 @@ header {
 
 .wordmark {
   display: inline-block;
-  margin-top: 1em;
+  margin-top: 2%;
 }
 
 /* ----- NAVIGATION ----- */
