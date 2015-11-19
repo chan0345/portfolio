@@ -184,40 +184,6 @@ a:focus {
   border: none;
 }
 
-.nav-check {
-  position: absolute;
-  top: 1em;
-  display: none
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-  width: 50px;
-  z-index: 4;
-  display: inline-block;
-}
-
-.nav-open, 
-.nav-close {
-  display: block;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
-}
-
 /* ----- JAVASCRIPT FOR NAV -----
 .nav-btn[data-state="active"] {
   background: transparent url(../images/nav-close.svg) no-repeat center center;
