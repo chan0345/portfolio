@@ -629,7 +629,7 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   top: 0;
   width: 100%;
   white-space: normal;
-  z-index: 2;
+  z-index: 5;
 }
 
 .pagedImages > ul > li:target > a:first-child {
@@ -653,10 +653,6 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   max-width: 400px;
   -webkit-transition: none;
   transition: none;
-}
-
-.img-margin {
-  margin-top: 12%;
 }
 
 /* ----- FOOTER ----- */
