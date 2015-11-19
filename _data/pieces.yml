@@ -7,11 +7,11 @@
 
 - name: Sony Package Design
   image: /sony/cover-page.jpg
-  image2: /sony/rationale.jpg
-  image3: /sony/design.jpg
-  image4: /sony/manual.jpg
-  image5: /sony/prototype.jpg
-  image6: /sony/prototype-2.jpg
+  image3: /sony/rationale.jpg
+  image4: /sony/design.jpg
+  image5: /sony/manual.jpg
+  image6: /sony/prototype.jpg
+  image7: /sony/prototype-2.jpg
   paragraph: For this project we were tasked with redesigning a pre-existing product package design from the categories of toys, food, and electronics.
   for: _2
   id: _2
