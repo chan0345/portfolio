@@ -34,14 +34,18 @@
     <h1 class="push-0 center"><img src="{{site.baseurl}}images/wordmark-horizontal.png" class="img-flex wordmark" alt="wordmark" title="Anita Chanthavong"></h1>
   </div>
 <!-- ----- NAV ----- -->
-  <nav class="nav nav-top">
-    <a href="#" class="peta btn"><i class="fa fa-bars nav-btn ease-all"></i></a>
-      <!--<img src="{{site.baseurl}}images/nav-close.svg" class="nav-btn ease-all">-->
-    <ul class="push-half" class="menu">
-      <li><a href="#work" class="links" rel="work">Work</a></li>
-      <li><a href="#about" class="links" rel="about">About</a></li>
-    </ul>
-  </nav>
+  <article class="box">
+    <label class="collapse" for="nav-menu">
+      <a href="#" class="peta btn"><i class="fa fa-bars nav-btn ease-all"></i></a>
+    </label>
+    <input id="nav-menu" type="checkbox">
+    <div><nav class="nav nav-top">
+      <ul class="push-half" class="menu">
+        <li><a href="#work" class="links" rel="work">Work</a></li>
+        <li><a href="#about" class="links" rel="about">About</a></li>
+      </ul>
+    </nav></div>
+  </article>
   <hr class="hr-style">
 </header>
 

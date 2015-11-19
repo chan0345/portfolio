@@ -9,7 +9,9 @@ meta: A collection of works created by Anita Chanthavong.
 
 {% for piece in site.data.pieces %}
   <article class="box">
-      <label class="collapse" for="{{piece.for}}"><h2>{{piece.name}}</h2></label>
+    <label class="collapse" for="{{piece.for}}">
+      <h2>{{piece.name}}</h2>
+    </label>
     <input id="{{piece.id}}" type="checkbox">
       <div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
         <img class="piece" src="{{piece.image}}" alt="Piece">
