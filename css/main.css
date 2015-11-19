@@ -404,15 +404,13 @@ span {
   display:block;
 }
 
-footer {
-  position: relative;
-  padding-top: 50px;
-}
-
 .piece {
   width: 100%;
   border-radius: 0;
+}
 
+.video {
+  width: 100%;
 }
 
 /* ----- IMAGE SLIDER ----- */
@@ -655,6 +653,13 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   max-width: 400px;
   -webkit-transition: none;
   transition: none;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+  position: relative;
+  padding-top: 50px;
 }
 
 /* ----- RESPONSIVE ----- */
