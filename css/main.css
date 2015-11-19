@@ -113,6 +113,11 @@ header {
   border-radius: 200px;
 }
 
+.wordmark {
+  display: inline-block;
+  margin-top: 1em;
+}
+
 /* ----- NAVIGATION ----- */
 
 .nav {
