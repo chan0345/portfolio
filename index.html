@@ -23,7 +23,7 @@ meta: A collection of works created by Anita Chanthavong.
         {% endif %}
 
         {% if piece.video %}
-        <video src="{{site.baseurl}}/videos/{{piece.video}}" controls alt="{{piece.alt}}"></video>
+        <video src="{{site.baseurl}}/videos/{{piece.video}}" controls alt="{{piece.alt}}">{{piece.fallback}}</video>
         {% endif %}
 
         {% if piece.paragraph2 %}
