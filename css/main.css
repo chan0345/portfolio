@@ -1,35 +1,20 @@
 /* ----- COLOUR PALETTE -----
-#3cc = rgb(51,204,204)
+#00bcaf = rgba(0,188,175,1) = C35 M0 Y42 K0
+#00464f = rgba(0,70,79,1) = C100 M56 Y55 K39
+#c2e575 = rgba(194,229,117,1) = C0.15 M0 Y0.49 K0.1
+
 Shades:
-#2db7b7
-#28a3a3
-#238e8e
-#1e7a7a
-#196666
-#145151
-#0f3d3d
-#0a2828
-#051414
-#000000
+#2db7b7 #28a3a3 #238e8e #1e7a7a #196666
+#145151 #0f3d3d #0a2828 #051414 #000000
 
 Tints:
-#47d1d1
-#5bd6d6
-#70dbdb
-#84e0e0
-#99e5e5
-#adeaea
-#c1efef
-#d6f4f4
-#eaf9f9
-#ffffff
+#47d1d1 #5bd6d6 #70dbdb #84e0e0 #99e5e5
+#adeaea #c1efef #d6f4f4 #eaf9f9 #ffffff
 
+#3cc = rgba(51,204,204,1)
 #6cc
 #9cc
-
 #099
-Navy #095C7C
-
 */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -79,10 +64,10 @@ body {
 header {
 	overflow: hidden;
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.8`5);
+  background-color: rgba(255, 255, 255, 0.85);
   margin: 0;
   z-index: 3;
-  box-shadow: 3px 3px 3px rgba(0,70,79, 0.25);
+  /*box-shadow: 3px 3px 3px rgba(0,70,79, 0.25);*/
 }
 
 /* ----- LOGO ----- */
@@ -97,7 +82,7 @@ header {
 .logo:hover,
 .logo:focus,
 .logo:active {
-  border: 1px solid #C2E575;
+  border: 1px solid #c2e575;
 }
 
 /* ----- IMAGES ----- */
@@ -176,9 +161,29 @@ header {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-  background-color: #C2E575;
+  background-color: #c2e575;
   border: none;
 }
+
+label {
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+/* ----- PRACTICE NAV ----- */
+
+
 
 /* ----- JAVASCRIPT FOR NAV -----
 .nav-btn[data-state="active"] {
@@ -268,13 +273,13 @@ nav,
 .social li a:hover,
 .social li a:active,
 .social li a:focus {
-  -webkit-box-shadow: inset 0px 0px 0px 3px #C2E575;
-  -moz-box-shadow: inset 0px 0px 0px 3px #C2E575;
-  -ms-box-shadow: inset 0px 0px 0px 3px #C2E575;
-  -o-box-shadow: inset 0px 0px 0px 3px #C2E575;
-  box-shadow: inset 0px 0px 0px 3px #C2E575;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #c2e575;
+  -moz-box-shadow: inset 0px 0px 0px 3px #c2e575;
+  -ms-box-shadow: inset 0px 0px 0px 3px #c2e575;
+  -o-box-shadow: inset 0px 0px 0px 3px #c2e575;
+  box-shadow: inset 0px 0px 0px 3px #c2e575;
   background-color: #fff;
-  color: #C2E575;
+  color: #c2e575;
 }
 
 /* ----- LINKED TEXT ----- */
@@ -293,7 +298,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: #C2E575;
+  color: #c2e575;
 }
 
 a:hover,
@@ -369,8 +374,7 @@ span {
 }
 
 .box:hover {
-  border: 1px solid #C2E575;
-  color: white;
+  border: 1px solid #c2e575;
 }
 
 .box {
@@ -667,6 +671,40 @@ footer {
   position: relative;
   padding-top: 50px;
 }
+
+.top {
+  transition:all .2s ease-in-out;
+  -webkit-animation: to-the-top .4s ease-in-out infinite alternate;
+  animation: to-the-top .4s ease-in-out infinite alternate;
+}
+
+.top i {
+  color: #00464f;
+
+}
+
+@-webkit-keyframes to-the-top {
+
+  0% {
+    -webkit-transform: translateY(0px);
+  }
+
+  100% {
+    -webkit-transform: translateY(5px);
+  }
+}
+
+@keyframes to-the-top {
+
+  0% {
+    transform: translateY(0px));
+  }
+
+  100% {
+    transform: translateY(5px);
+  }
+}
+
 
 /* ----- RESPONSIVE ----- */
 
