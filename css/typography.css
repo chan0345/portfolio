@@ -7,7 +7,6 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.5rem;
-  color: #063d3e;
 }
 
 .yotta {
@@ -29,6 +28,8 @@ h1, .exa {
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
+  color: #00464f;
+
 }
 
 h3, .tera {
@@ -174,10 +175,11 @@ sub {
 
 footer h3 {
   font-size: 1.0000rem;
+  color: #00464f:;
 }
 
 .copyright {
-  color: #3cc;
+  color: #00bcaf;
 }
 
 @media only screen and (min-width: 1em) {
