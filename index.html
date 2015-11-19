@@ -14,7 +14,7 @@ meta: A collection of works created by Anita Chanthavong.
     </label>
     <input id="{{piece.id}}" type="checkbox">
       <div class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-        <img class="piece" src="{{piece.image}}" alt="Piece">
+        <img class="piece" src="{{site.baseurl}}/images/{{piece.image}}" alt="Piece">
         <p>{{piece.paragraph}}</p>
         {% include image-slider.html %}
       </div>

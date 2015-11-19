@@ -96,7 +96,7 @@ header {
 .logo:hover,
 .logo:focus,
 .logo:active {
-  border: 5px solid #C2E575;
+  border: 1px solid #C2E575;
 }
 
 /* ----- IMAGES ----- */
@@ -127,10 +127,6 @@ header {
   margin-bottom: 0;
 }
 
-.nav i {
-  margin-top: 4em;
-}
-
 .nav ul {
   padding: 0;
   margin-bottom: 0;
@@ -154,13 +150,9 @@ header {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #6cc;
+  background: transparent url("../images/nav-close.svg") no-repeat center center;
   border-radius: 15px;
   color: #fff;
-}
-
-a:focus {
-	outline: 3px solid #095C7C;
 }
 
 .nav-btn,
@@ -415,6 +407,12 @@ span {
 footer {
   position: relative;
   padding-top: 50px;
+}
+
+.piece {
+  width: 100%;
+  border-radius: 0;
+
 }
 
 /* ----- IMAGE SLIDER ----- */
