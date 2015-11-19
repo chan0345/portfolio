@@ -28,10 +28,20 @@
   alt: Gestalt Illustration
 
 - name: Monopolatte Logo Design
-  image: http://placehold.it/100/9cc/fff/?text=IMG
-  paragraph: I love caramels chupa chups I love halvah jelly jelly. Brownie jelly brownie marshmallow. Dessert cake cake bear claw icing. Jelly ice cream tootsie roll. Pastry I love liquorice carrot cake sugar plum. Marzipan chocolate bar jelly beans sesame snaps. Topping apple pie danish candy canes.
+  image: /mono/cover-front.jpg
+  image3: /mono/cover-in.jpg
+  image4: /mono/main.jpg
+  image5: /mono/main2.jpg
+  image6: /mono/main3.jpg
+  image7: /mono/main4.jpg
+  image8: /mono/main5.jpg
+  image9: /mono/main6.jpg
+  image10: /mono/cover-back.jpg
+  paragraph: This was a semester-long project that required us to redesign a logo of a local business in Ottawa.
+  paragraph2: We were required to design a new logo, as well as create a branding guide to accompany the new design.
   for: _4
   id: _4
+  imageslider: image-slider-mono.html
 
 - name: Hannibal Quote Book
   image: http://placehold.it/100/9cc/fff/?text=IMG
@@ -41,7 +51,7 @@
 
 - name: Motion Reel
   video: demo-reel-2014.mp4
-  paragraph2: The video below was created with Adobe After Effects and Adobe Premiere Pro.
+  paragraph2: Created with Adobe After Effects and Adobe Premiere Pro.
   for: _6
   id: _6
   alt: Motion Reel
