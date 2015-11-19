@@ -79,9 +79,10 @@ body {
 header {
 	overflow: hidden;
   position: fixed;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8`5);
   margin: 0;
   z-index: 3;
+  box-shadow: 3px 3px 3px rgba(0,70,79, 0.25);
 }
 
 /* ----- LOGO ----- */
@@ -257,11 +258,11 @@ nav,
   
   color: #FFF;
   
-  -webkit-box-shadow: inset 0px 0px 0px 40px #099;
-  -moz-box-shadow: inset 0px 0px 0px 40px #099;
-  -ms-box-shadow: inset 0px 0px 0px 40px #099;
-  -o-box-shadow: inset 0px 0px 0px 40px #099;
-  box-shadow: inset 0px 0px 0px 40px #099;
+  -webkit-box-shadow: inset 0px 0px 0px 40px #00bcaf;
+  -moz-box-shadow: inset 0px 0px 0px 40px #00bcaf;
+  -ms-box-shadow: inset 0px 0px 0px 40px #00bcaf;
+  -o-box-shadow: inset 0px 0px 0px 40px #00bcaf;
+  box-shadow: inset 0px 0px 0px 40px #00bcaf;
 }
 
 .social li a:hover,
@@ -340,7 +341,7 @@ span {
     border: 0;
     height: 1px;
     margin: 0;
-    background-image: linear-gradient(to right, rgba(51, 204, 204, 0), rgba(51, 204, 204, 0.75), rgba(51, 204, 204, 0));
+    background-image: linear-gradient(to right, rgba(0,188,175,0), rgba(0,188,175,1), rgba(0,188,175,0));
 }
 
 .hr-footer {
