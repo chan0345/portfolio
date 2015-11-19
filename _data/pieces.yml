@@ -3,6 +3,7 @@
   paragraph: This project was meant to exercise Adobe Illustrator skills to create an isometric drawing of a process of our choosing. This particular process is of the different sections of Ikea.
   for: _1
   id: _1
+  alt: Isometric Illustration
 
 - name: Sony Package Design
   image: http://placehold.it/100/9cc/fff/?text=IMG
@@ -17,6 +18,7 @@
   image2: gestalt-2.jpg
   for: _3
   id: _3
+  alt: Gestalt Illustration
 
 - name: Monopolatte Logo Design
   image: http://placehold.it/100/9cc/fff/?text=IMG
@@ -31,7 +33,8 @@
   id: _5
 
 - name: Motion Reel
-  image: http://placehold.it/100/9cc/fff/?text=IMG
-  paragraph: Cupcake ipsum dolor sit. Amet jelly beans cookie jelly-o pastry carrot cake. Gummies jelly-o cake. Jelly apple pie soufflé candy tart icing. Apple pie caramels muffin. Caramels soufflé candy oat cake macaroon candy chocolate bar. Brownie jelly-o danish sugar plum jelly-o I love marshmallow. Cupcake sugar plum apple pie tart chocolate jelly beans icing dragée sesame snaps. Powder donut lollipop sugar plum pie. Fruitcake macaroon toffee jelly-o chupa chups sugar plum. Soufflé halvah marzipan fruitcake gummies.
+  video: demo-reel-2014.mp4
+  paragraph: This is a demo reel made with Adobe After Effects and Adobe Premiere Pro.
   for: _6
   id: _6
+  alt: Motion Reel  
