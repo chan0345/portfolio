@@ -173,6 +173,10 @@ sub {
   background: #1cc;
 }
 
+.intro {
+  margin-top: 2%;
+}
+
 footer h3 {
   font-size: 1.0000rem;
   color: #00464f:;
