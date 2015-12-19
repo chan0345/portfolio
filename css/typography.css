@@ -177,10 +177,6 @@ sub {
   margin-top: 2%;
 }
 
-.turq h2 {
-  color: #6cc;
-}
-
 footer h3 {
   font-size: 1.0000rem;
   color: #00464f:;
@@ -188,6 +184,11 @@ footer h3 {
 
 .copyright {
   color: #00bcaf;
+}
+
+.ohnoes {
+  font-size: 2rem;
+  line-height: 1.2;
 }
 
 @media only screen and (min-width: 1em) {
