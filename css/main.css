@@ -688,6 +688,11 @@ footer {
 
 }
 
+.404 footer {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 @-webkit-keyframes to-the-top {
 
   0% {
