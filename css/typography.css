@@ -177,6 +177,10 @@ sub {
   margin-top: 2%;
 }
 
+.turq {
+  color: #6cc;
+}
+
 footer h3 {
   font-size: 1.0000rem;
   color: #00464f:;
