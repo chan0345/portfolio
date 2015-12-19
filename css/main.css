@@ -106,7 +106,7 @@ header {
 }
 
 .shark {
-  height: 33.33%;
+  width: 50%;
   margin: auto;
 }
 
@@ -749,6 +749,11 @@ footer {
   .box {
     margin-bottom: 0.5%;
     padding: 0 10%;
+  }
+
+  .shark {
+    width: 25%;
+    margin: auto;
   }
 }
 
