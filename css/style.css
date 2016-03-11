@@ -285,7 +285,7 @@
   }
 }
 html {
-  font: normal 100%/1.5 "Josefin Sans", sans-serif;
+  font: normal 100%/1.5 "Josefin Sans", Century Gothic, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -1170,6 +1170,14 @@ footer {
   position: relative;
   padding-top: 50px;
 }
+footer img {
+  display: inline;
+  padding: 0 2%;
+  float: left;
+}
+footer p {
+  padding: 0 2%;
+}
 
 .top {
   transition: all .2s ease-in-out;
@@ -1178,7 +1186,10 @@ footer {
 }
 
 .top i {
-  color: #00464f;
+  color: #004851;
+}
+.top i:hover {
+  color: #00c7b1;
 }
 
 .error-page {
@@ -1222,6 +1233,10 @@ footer {
   .box {
     margin-bottom: 1%;
   }
+
+  footer .social p {
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 38em) {
   /* 608px */
@@ -1241,6 +1256,10 @@ footer {
   .shark {
     width: 25%;
     margin: auto;
+  }
+
+  footer img {
+    padding-right: 0;
   }
 }
 @media only screen and (min-width: 60em) {

@@ -643,6 +643,15 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 footer {
   position: relative;
   padding-top: 50px;
+  img {
+    display: inline;
+    padding: 0 2%;
+    float: left;
+  }
+
+  p {
+    padding: 0 2%;
+  }
 }
 
 .top {
@@ -652,8 +661,10 @@ footer {
 }
 
 .top i {
-  color: #00464f;
-
+  color: $teal;
+  &:hover {
+    color: $turq;
+  }
 }
 
 .error-page {
@@ -705,6 +716,14 @@ footer {
   .box {
     margin-bottom: 1%;
   }
+
+  footer {
+    .social {
+      p {
+        text-align: left;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -727,6 +746,12 @@ footer {
   .shark {
     width: 25%;
     margin: auto;
+  }
+
+  footer {
+    img {
+      padding-right: 0;
+    }
   }
 }
 
