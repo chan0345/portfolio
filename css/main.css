@@ -173,7 +173,7 @@ header {
 label {
   cursor: pointer;
 }
-
+/*
 #menu-toggle {
   display: none;
 }
@@ -185,12 +185,9 @@ label {
 #menu-toggle:checked + #menu {
   display: block;
 }
+*/
 
-/* ----- PRACTICE NAV ----- */
-
-
-
-/* ----- JAVASCRIPT FOR NAV -----
+/* ----- JAVASCRIPT FOR NAV ----- */
 .nav-btn[data-state="active"] {
   background: transparent url(../images/nav-close.svg) no-repeat center center;
 }
@@ -223,7 +220,7 @@ nav,
 #menuTrigger:checked + nav {
   display: block;
 }
-*/
+
 .ease-all {
   -moz-text-size-adjust: all 300ms cubic-bezier(0.785,0.135,0.15,1.55);
   -ms-text-size-adjust: all 300ms cubic-bezier(0.785,0.135,0.15,1.55);
