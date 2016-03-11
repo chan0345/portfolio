@@ -222,6 +222,7 @@ nav,
   display: inline-block;
   text-align: center;
   margin-bottom: 0;
+  vertical-align: center;
 }
 
 .social li a,
@@ -230,7 +231,6 @@ nav,
   display: inline-block;
   width: 40px;
   height: 40px;
-  padding-top: 8px;
   
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -768,5 +768,16 @@ footer {
     padding: 0 20%;
   }
 
+  footer {
+    .social {
+      li {
+        font-size: 100%;
+      }
+
+      a {
+        vertical-align: center;
+      }
+    }
+  }
   
 }
