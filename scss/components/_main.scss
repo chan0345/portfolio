@@ -5,14 +5,9 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  margin: 0;
-  padding: 0;
+  @include zero;
   box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  @include text-size-adjust(100%);
 }
 
 @media only screen and (min-width: 60em) {
@@ -63,7 +58,7 @@ header {
 .logo:hover,
 .logo:focus,
 .logo:active {
-  border: 1px solid #c2e575;
+  border: 1px solid $green;
 }
 
 /* ----- IMAGES ----- */
@@ -114,8 +109,7 @@ header {
 .nav a:link,
 .nav a:visited {
 	display: block;
-
-	color: #099;
+	color: $turq;
 	text-decoration: none;
 }
 
@@ -124,7 +118,7 @@ header {
 .nav a:active {
   background: transparent url("../images/nav-close.svg") no-repeat center center;
   border-radius: 15px;
-  color: #fff;
+  color: $white;
 }
 
 .nav-btn,
@@ -135,7 +129,7 @@ header {
   width: 40px;
   top: 0.7500rem;
   right: 2.5%;
-  border: 2px solid #6cc;
+  border: 2px solid $turq;
 
   -webkit-border-radius: 20px;
   -moz-boder-radius: 20px;
@@ -147,7 +141,7 @@ header {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-  background-color: #c2e575;
+  background-color: $green;
   border: none;
 }
 
@@ -211,7 +205,7 @@ nav,
 }
 
 .links {
-  border: 1px solid #6cc;
+  border: 1px solid $turq;
   border-radius: 20px;
   padding: 5px;
   margin-bottom: 5px;
@@ -244,44 +238,44 @@ nav,
   -o-border-radius: 20px;
   border-radius: 20px;
   
-  color: #FFF;
+  color: $white;
   
-  -webkit-box-shadow: inset 0px 0px 0px 40px #00bcaf;
-  -moz-box-shadow: inset 0px 0px 0px 40px #00bcaf;
-  -ms-box-shadow: inset 0px 0px 0px 40px #00bcaf;
-  -o-box-shadow: inset 0px 0px 0px 40px #00bcaf;
-  box-shadow: inset 0px 0px 0px 40px #00bcaf;
+  -webkit-box-shadow: inset 0px 0px 0px 40px $turq;
+  -moz-box-shadow: inset 0px 0px 0px 40px $turq;
+  -ms-box-shadow: inset 0px 0px 0px 40px $turq;
+  -o-box-shadow: inset 0px 0px 0px 40px $turq;
+  box-shadow: inset 0px 0px 0px 40px $turq;
 }
 
 .social li a:hover,
 .social li a:active,
 .social li a:focus {
-  -webkit-box-shadow: inset 0px 0px 0px 3px #c2e575;
-  -moz-box-shadow: inset 0px 0px 0px 3px #c2e575;
-  -ms-box-shadow: inset 0px 0px 0px 3px #c2e575;
-  -o-box-shadow: inset 0px 0px 0px 3px #c2e575;
-  box-shadow: inset 0px 0px 0px 3px #c2e575;
-  background-color: #fff;
-  color: #c2e575;
+  -webkit-box-shadow: inset 0px 0px 0px 3px $green;
+  -moz-box-shadow: inset 0px 0px 0px 3px $green;
+  -ms-box-shadow: inset 0px 0px 0px 3px $green;
+  -o-box-shadow: inset 0px 0px 0px 3px $green;
+  box-shadow: inset 0px 0px 0px 3px $green;
+  background-color: $white;
+  color: $green;
 }
 
 /* ----- LINKED TEXT ----- */
 
 a,
 a:link {
-  color: #9cc;
+  color: $turq;
   text-decoration: none;
   transition: all 150ms linear;  
 }
 
 a:visited {
-  color: #9cc;
+  color: $turq;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #c2e575;
+  color: $green;
 }
 
 a:hover,
@@ -314,7 +308,7 @@ button:focus {
 }
 
 .section {
-  background-color: #9cc;
+  background-color: $turq;
 }
 
 span {
@@ -325,7 +319,7 @@ span {
     border: 0;
     height: 1px;
     margin: 0;
-    background-image: linear-gradient(to right, rgba(0,188,175,0), rgba(0,188,175,1), rgba(0,188,175,0));
+    background-image: linear-gradient(to right, rgba(0, 199, 177, 0), rgba(0, 199, 177, 1), rgba(0, 199, 177, 0));
 }
 
 .hr-footer {
@@ -353,12 +347,12 @@ span {
 }
 
 .box:hover {
-  border: 1px solid #c2e575;
+  border: 1px solid $green;
 }
 
 .box {
   text-align: center;
-  border: 1px solid lightgrey;
+  border: 1px solid $lturq;
   padding: 0 5%;
   margin-bottom: 2.5%;
 }

@@ -1,6 +1,13 @@
-@mixin zero{
+@mixin zero {
   margin: 0;
   padding: 0;
+}
+
+@mixin text-size-adjust($adjust) {
+  -webkit-text-size-adjust: $adjust;
+  -moz-text-size-adjust: $adjust;
+  -ms-text-size-adjust: $adjust;
+  text-size-adjust: $adjust;
 }
 
 @mixin ease($transition-property, $transition-time, $method) {

@@ -285,7 +285,7 @@
   }
 }
 html {
-  font: normal 100%/1.5 'Josefin Sans', sans-serif;
+  font: normal 100%/1.5 "Josefin Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -308,13 +308,13 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
-  color: #6cc;
+  color: #00c7b1;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
-  color: #00464f;
+  color: #004851;
 }
 
 h3, .tera {
@@ -455,11 +455,11 @@ sub {
 }
 
 ::-moz-selection {
-  background: #1cc;
+  background: #99e8df;
 }
 
 ::selection {
-  background: #1cc;
+  background: #99e8df;
 }
 
 .intro {
@@ -472,7 +472,7 @@ footer h3 {
 }
 
 .copyright {
-  color: #00bcaf;
+  color: #00c7b1;
 }
 
 .ohnoes {
@@ -566,8 +566,8 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
@@ -664,7 +664,7 @@ header {
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: #099;
+  color: #00c7b1;
   text-decoration: none;
 }
 
@@ -684,7 +684,7 @@ header {
   width: 40px;
   top: 0.7500rem;
   right: 2.5%;
-  border: 2px solid #6cc;
+  border: 2px solid #00c7b1;
   -webkit-border-radius: 20px;
   -moz-boder-radius: 20px;
   border-radius: 20px;
@@ -756,7 +756,7 @@ nav,
 }
 
 .links {
-  border: 1px solid #6cc;
+  border: 1px solid #00c7b1;
   border-radius: 20px;
   padding: 5px;
   margin-bottom: 5px;
@@ -782,10 +782,10 @@ nav,
   height: 40px;
   padding-top: 8px;
   border-radius: 20px;
-  color: #FFF;
-  -ms-box-shadow: inset 0px 0px 0px 40px #00bcaf;
-  -o-box-shadow: inset 0px 0px 0px 40px #00bcaf;
-  box-shadow: inset 0px 0px 0px 40px #00bcaf;
+  color: #fff;
+  -ms-box-shadow: inset 0px 0px 0px 40px #00c7b1;
+  -o-box-shadow: inset 0px 0px 0px 40px #00c7b1;
+  box-shadow: inset 0px 0px 0px 40px #00c7b1;
 }
 
 .social li a:hover,
@@ -801,13 +801,13 @@ nav,
 /* ----- LINKED TEXT ----- */
 a,
 a:link {
-  color: #9cc;
+  color: #00c7b1;
   text-decoration: none;
   transition: all 150ms linear;
 }
 
 a:visited {
-  color: #9cc;
+  color: #00c7b1;
 }
 
 a:hover,
@@ -844,7 +844,7 @@ button:focus {
 }
 
 .section {
-  background-color: #9cc;
+  background-color: #00c7b1;
 }
 
 span {
@@ -855,7 +855,7 @@ span {
   border: 0;
   height: 1px;
   margin: 0;
-  background-image: linear-gradient(to right, rgba(0, 188, 175, 0), #00bcaf, rgba(0, 188, 175, 0));
+  background-image: linear-gradient(to right, rgba(0, 199, 177, 0), #00c7b1, rgba(0, 199, 177, 0));
 }
 
 .hr-footer {
@@ -887,7 +887,7 @@ span {
 
 .box {
   text-align: center;
-  border: 1px solid lightgrey;
+  border: 1px solid #99e8df;
   padding: 0 5%;
   margin-bottom: 2.5%;
 }

@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 'Josefin Sans', sans-serif;
+  font: normal 100%/1.5 $body;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -22,13 +22,13 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
-  color: #6cc;
+  color: $turq;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
-  color: #00464f;
+  color: $teal;
 
 }
 
@@ -170,7 +170,7 @@ sub {
 }
 
 ::selection {
-  background: #1cc;
+  background: $lturq;
 }
 
 .intro {
@@ -183,7 +183,7 @@ footer h3 {
 }
 
 .copyright {
-  color: #00bcaf;
+  color: $turq;
 }
 
 .ohnoes {
