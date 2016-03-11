@@ -1,22 +1,3 @@
-/* ----- COLOUR PALETTE -----
-#00bcaf = rgba(0,188,175,1) = C35 M0 Y42 K0
-#00464f = rgba(0,70,79,1) = C100 M56 Y55 K39
-#c2e575 = rgba(194,229,117,1) = C0.15 M0 Y0.49 K0.1
-
-Shades:
-#2db7b7 #28a3a3 #238e8e #1e7a7a #196666
-#145151 #0f3d3d #0a2828 #051414 #000000
-
-Tints:
-#47d1d1 #5bd6d6 #70dbdb #84e0e0 #99e5e5
-#adeaea #c1efef #d6f4f4 #eaf9f9 #ffffff
-
-#3cc = rgba(51,204,204,1)
-#6cc
-#9cc
-#099
-*/
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -173,7 +154,7 @@ header {
 label {
   cursor: pointer;
 }
-/*
+
 #menu-toggle {
   display: none;
 }
@@ -185,9 +166,9 @@ label {
 #menu-toggle:checked + #menu {
   display: block;
 }
-*/
 
 /* ----- JAVASCRIPT FOR NAV ----- */
+/*
 .nav-btn[data-state="active"] {
   background: transparent url(../images/nav-close.svg) no-repeat center center;
 }
@@ -219,7 +200,7 @@ nav,
 
 #menuTrigger:checked + nav {
   display: block;
-}
+}*/
 
 .ease-all {
   -moz-text-size-adjust: all 300ms cubic-bezier(0.785,0.135,0.15,1.55);
@@ -338,10 +319,6 @@ button:focus {
 
 span {
   display: none;
-}
-
-.light-grey {
-  background-color: lightgray;
 }
 
 .hr-style {
@@ -685,7 +662,7 @@ footer {
 
 }
 
-.404 {
+.error-page {
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -704,7 +681,7 @@ footer {
 @keyframes to-the-top {
 
   0% {
-    transform: translateY(0px));
+    transform: translateY(0px);
   }
 
   100% {
